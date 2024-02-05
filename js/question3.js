@@ -13,6 +13,13 @@ if(darkBool === false){
 //switch theme depending on what bool is set to
 
 
+//saving the current bool to save the user's choice across pages
+if(localStorage.getItem("savePreference")){
+    darkBool = JSON.parse(localStorage.getItem("savePreference"));
+};
+//saving bool value to localstorage but not applying ?
+
+
 btnDark.addEventListener("click", function(e){
     switchStyle.href = "../css/mystyel.css";
     //add localstorage to save pref
@@ -23,10 +30,3 @@ btnLight.addEventListener("click", function(e){
     switchStyle.href = "../css/style.css";
     localStorage.setItem("savePreference", JSON.stringify(false));
 });
-
-
-//saving the current bool to save the user's choice across pages
-if(localStorage.getItem("savePreference")){
-    darkBool = JSON.parse(localStorage.getItem("savePreference"));
-};
-//saving bool value to localstorage but not applying ?
