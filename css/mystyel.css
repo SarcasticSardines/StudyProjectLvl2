@@ -1,0 +1,76 @@
+.bg-light {
+    background-color: black !important;
+}
+
+.navbar-light {
+    background-color: black !important;
+}
+
+body {
+    color: white;
+}
+
+.greyBg {
+    background-color: rgb(27, 27, 27);
+}
+
+.lightGreyBg {
+    background-color:rgb(27, 27, 27);
+}
+
+.whiteBg {
+    background-color: rgb(27, 27, 27);
+}
+
+.gainsbroBg {
+    background-color: rgb(27, 27, 27);
+}
+
+.alpha-1 {
+    opacity: .2;
+}
+
+.alpha-2 {
+    opacity: .4;
+}
+
+.alpha-3 {
+    opacity: .6;
+}
+
+.alpha-4 {
+    opacity: .8;
+}
+
+.boxHeight{
+    height: 100vh;
+}
+
+.dashSection{
+    min-height:300px;
+}
+
+.roundedCorner{
+    border-radius: 10px;
+}
+
+.menuBG{
+    background-color: rgb(15, 15, 15);
+}
+
+.white{
+    color:white;
+}
+.gainsbro{
+    color:gainsboro;
+}
+.remove-underline{
+ text-decoration: none;
+}
+
+.simple-box{
+    color: white;
+    background-color: purple;
+    height: 120px;
+    width: 120px;
+}
